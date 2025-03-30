@@ -161,13 +161,14 @@ body,
     background: linear-gradient(160deg, #000000, #000000, #252e39, #000000, #27313d, #000000);
 }
 
-.bg-background {
+.shadow-lg {
     background: linear-gradient(to bottom, #161a1e, #1a1f25, #21272f, #313b45, #323c47);
 }
 
 /* 按钮 */
 button,
-.transition-colors {
+.transition-colors,
+.text-right {
     background-color: ##262e37;
     color: #bbbbbb;
 }
@@ -177,9 +178,3 @@ button:hover,
     background-color: #ff6000;
     color: #ffffff;
 }
-
-/* 动态横线 */
-.bg-green-400 {
-    background-color: #ff6000;
-}
-
