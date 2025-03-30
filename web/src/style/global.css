@@ -147,7 +147,7 @@
 }
 
 body {
-    background; linear-gradient(to bottom, #161a1e, #1a1f25, #21272f, #313b45, #323c47);
+    background: linear-gradient(to bottom, #161a1e, #1a1f25, #21272f, #313b45, #323c47);
 }
 
 .bg-sidebar {
