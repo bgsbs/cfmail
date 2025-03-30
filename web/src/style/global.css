@@ -145,3 +145,52 @@
     @apply bg-border rounded-sm;
   }
 }
+
+body {
+    background: linear-gradient(to bottom, #252e37, #1e242b, #1f2731, #222933, #222933) !important;
+}
+
+/* 页眉和侧边栏 */
+.bg-sidebar {
+    background: linear-gradient(to bottom, #161a1e, #1a1f25, #21272f, #313b45, #323c47);
+}
+
+/* 收件箱 */
+.py-5\\.5 {
+    background: linear-gradient(to right, #050606, #272e35, #101418, #2a333d, #13191e);
+}
+
+/* 按钮 */
+.has-\
+
+\[\\>svg\\]
+
+\\:px-3:has(>svg),
+.transition-colors {
+    background-color: #1a1d22;
+    color: #bbbbbb;
+}
+
+.has-\
+
+\[\\>svg\\]
+
+\\:px-3:has(>svg):hover,
+.transition-colors:hover {
+    background-color: #ff6000;
+    color: #ffffff;
+}
+
+.bg-green-400 {
+    background-color: #ff6000;
+}
+
+.has-\
+
+\[\\>svg\\]
+
+\\:px-2:has(>svg),
+img {
+    display: none;
+}
+
