@@ -107,7 +107,7 @@ function Content({ lang }: { lang: string }) {
         <Actions lang={lang} />
       </div>
       <div className="relative border-x">
-        <div className="animate-fill absolute h-1 bg-green-400" />
+<!--        <div className="animate-fill absolute h-1 bg-green-400" />  -->
         <div className="flex flex-wrap items-center">
           <div className="bg-sidebar flex h-12 items-center border-r px-4">
             <Mounted fallback={<Skeleton className="h-6 w-48" />}>
