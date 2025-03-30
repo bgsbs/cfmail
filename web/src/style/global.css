@@ -146,21 +146,29 @@
   }
 }
 
-body {
-    background: linear-gradient(to bottom, #161a1e, #1a1f25, #21272f, #313b45, #323c47);
+body,
+.fixed {
+    background: linear-gradient(#161a1e, #1a1f25, #21272f, #222933, #222933);
 }
 
+/* 页眉和侧边栏 */
 .bg-sidebar {
     background: linear-gradient(to bottom, #161a1e, #1a1f25, #21272f, #313b45, #323c47);
 }
 
+/* 收件箱 */
 .text-muted-foreground {
-    background: linear-gradient(to right, #050606, #272e35, #101418, #2a333d, #13191e);
+    background: linear-gradient(160deg, #000000, #000000, #252e39, #000000, #27313d, #000000);
 }
 
+.bg-background {
+    background: linear-gradient(to bottom, #161a1e, #1a1f25, #21272f, #313b45, #323c47);
+}
+
+/* 按钮 */
 button,
 .transition-colors {
-    background-color: #1a1d22;
+    background-color: ##262e37;
     color: #bbbbbb;
 }
 
@@ -168,5 +176,10 @@ button:hover,
 .transition-colors:hover {
     background-color: #ff6000;
     color: #ffffff;
+}
+
+/* 动态横线 */
+.bg-green-400 {
+    background-color: #ff6000;
 }
 
